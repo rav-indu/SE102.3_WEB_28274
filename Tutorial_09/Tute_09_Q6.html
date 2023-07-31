@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Tute_09_Q6</title>
+    </head>
+    <body>
+        <button id="googleButton">Google</button>
+        
+        <script>
+            function redirectToGoogle() {
+                var confirmation = confirm('Do you want to visit Google?');
+
+                if (confirmation) {
+                    window.location.href = 'https://www.google.com';
+                } else {
+                    alert('You decided to stay.');
+                }
+            }
+
+        var googleButton = document.getElementById('googleButton');
+
+        googleButton.addEventListener('click', redirectToGoogle);
+
+    </script>
+
+    </body>
+</html>

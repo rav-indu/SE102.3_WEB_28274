@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Tute_07_Q2</title>
+    </head>
+    <body>
+
+        <script language="javascript" type="text/javascript">
+            
+            m1=parseInt(prompt("Enter Mark 1: ",""));
+            m2=parseInt(prompt("Enter Mark 2: ",""));
+            m3=parseInt(prompt("Enter Mark 3: ",""));
+            m4=parseInt(prompt("Enter Mark 4: ",""));
+            m5=parseInt(prompt("Enter Mark 5: ",""));
+
+            sum=m1+m2+m3+m4+m5;
+            avg=sum/5;
+            document.write("Sum is: "+sum);
+            document.write("<br/>");
+            document.write("Average is: "+avg);
+            document.write("<br/>");
+
+        </script>
+
+        <button type="button" id="gradeButton">Grade</button>
+
+        <script>
+
+        function checkGrade() {
+            var average = avg;
+
+            if (average > 30) {
+                alert('Congrats! You passed');
+            } else {
+                alert('Better luck next time');
+            }
+        }
+
+        var gradeButton = document.getElementById('gradeButton');
+
+        gradeButton.addEventListener('click', checkGrade);
+
+        </script>
+
+    </body>
+
+</html>

@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <title>Tute_05_Q2</title>
+        <style>
+            body{
+                background-image: url('2.jpg');
+                background-size: cover;
+            }
+            table{
+                margin-top: 200px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: #252525;
+                color: yellow;
+            }
+            tr{
+                height: 35px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr style="color: white; background-color: orange; text-align: center;">
+                <td colspan="2"><b>Sign Up</b></td>
+            </tr>
+
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" placeholder="Enter First Name"></td>
+            </tr>
+
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" placeholder="Enter Last Name"></td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth</td>
+                <td>
+                    <select name="date" id="">
+                        <option value="date">Date</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <select name="month" id="">
+                        <option value="month">Month</option>
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                    </select>
+                    <select name="year" id="">
+                        <option value="year">Year</option>
+                        <option value="18">2018</option>
+                        <option value="19">2019</option>
+                        <option value="20">2020</option>
+                        <option value="21">2021</option>
+                        <option value="22">2022</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" value="m">Male
+                    <input type="radio" value="f">Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>Country</td>
+                <td>
+                    <select name="country" id="">
+                        <option value="country">Country</option>
+                        <option value="sl">Sri Lanka</option>
+                        <option value="in">India</option>
+                        <option value="usa">United States</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="br">Brazil</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>E-mail</td>
+                <td><input type="text" placeholder="Enter E-mail"></td>
+            </tr>
+
+            <tr>
+                <td>Phone</td>
+                <td><input type="text" placeholder="Enter Phone"></td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td><input type="password"></td>
+            </tr>
+
+            <tr>
+                <td>Confirm Password</td>
+                <td><input type="password"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="agree" value="T">I agree to the Terms of use
+                </td>
+            </tr>
+
+            <tr style="background-color: orange;">
+                <td colspan="2">
+                    <button type="submit" value="submit" style="background-color: green; color: white;">Submit</button>
+                    <button type="reset" value="reset" style="background-color: red; color: white;">Cancel</button>
+                </td>
+            </tr>
+            
+        </table>
+    </body>
+</html>
